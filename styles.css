@@ -26,3 +26,11 @@ body{margin:0;font-family:'Inter',sans-serif;background:#f8f6f2;color:#2d2d2d;}
 dialog{width:95%;max-width:900px;border:none;border-radius:16px;padding:30px;}
 dialog::backdrop{background:rgba(0,0,0,.5);}
 .song-image{width:100%;border-radius:12px;}
+
+/* Categoría activa */
+.sidebar div.active-section {
+  background: #2c3e50;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
