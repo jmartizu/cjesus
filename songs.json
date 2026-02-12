@@ -28,5 +28,47 @@
     "title": "VINE A ALABAR A DIOS",
     "section": "Entrada",
     "image": "songs/vine-a-alabar-a-dios.png"
-  }
+  },
+{
+  "id": "habla-senor",
+  "title": "HABLA, SEÑOR",
+  "section": "Salmo",
+  "image": "songs/habla-senor.png"
+},
+{
+  "id": "ubi-caritas",
+  "title": "UBI CARITAS",
+  "section": "Salmo",
+  "image": "songs/ubi-caritas.png"
+},
+{
+  "id": "sois-la-sal",
+  "title": "SOIS LA SAL",
+  "section": "Salmo",
+  "image": "songs/sois-la-sal.png"
+},
+{
+  "id": "el-senor-es-mi-pastor",
+  "title": "EL SEÑOR ES MI PASTOR",
+  "section": "Salmo",
+  "image": "songs/el-senor-es-mi-pastor.png"
+},
+{
+  "id": "crea-en-mi-oh-dios",
+  "title": "CREA EN MÍ, OH DIOS",
+  "section": "Salmo",
+  "image": "songs/crea-en-mi-oh-dios.png"
+},
+{
+  "id": "siento-tu-llamada",
+  "title": "SIENTO TU LLAMADA",
+  "section": "Salmo",
+  "image": "songs/siento-tu-llamada.png"
+},
+{
+  "id": "nada-nos-separara",
+  "title": "NADA NOS SEPARARÁ",
+  "section": "Salmo",
+  "image": "songs/nada-nos-separara.png"
+}
 ]
