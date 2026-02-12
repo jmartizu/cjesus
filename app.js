@@ -28,21 +28,38 @@ function renderSections(){
     "Salida"
   ];
 
-  const categoriasExistentes = [...new Set(songs.map(x => x.section))];
+  const categoriasExistentes = [...new Set(songs.map(x => x.section.trim()))];
 
-  const categoriasOrdenadas = ordenLiturgico.filter(cat =>
-    categoriasExistentes.includes(cat)
-  );
+  let categoriasOrdenadas = [];
+
+  ordenLiturgico.forEach(cat => {
+    if(categoriasExistentes.includes(cat)){
+      categoriasOrdenadas.push(cat);
+    }
+  });
+
+  categoriasExistentes.forEach(cat => {
+    if(!categoriasOrdenadas.includes(cat)){
+      categoriasOrdenadas.push(cat);
+    }
+  });
 
   const seccionesFinales = ["Todas", ...categoriasOrdenadas];
 
   seccionesFinales.forEach(sec => {
     const d = document.createElement("div");
     d.textContent = sec;
+
+    if(sec === currentSection){
+      d.classList.add("active-section");
+    }
+
     d.onclick = () => {
       currentSection = sec;
+      renderSections();
       renderSongs();
     };
+
     c.appendChild(d);
   });
 }
