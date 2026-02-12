@@ -70,5 +70,41 @@
   "title": "NADA NOS SEPARARÁ",
   "section": "Salmo",
   "image": "songs/nada-nos-separara.png"
+},
+{
+  "id": "jesus-es-senor",
+  "title": "JESÚS ES SEÑOR",
+  "section": "Aleluya",
+  "image": "songs/jesus-es-senor.png"
+},
+{
+  "id": "aleluya-cantara",
+  "title": "ALELUYA CANTARÁ",
+  "section": "Aleluya",
+  "image": "songs/aleluya-cantara.png"
+},
+{
+  "id": "canta-aleluya",
+  "title": "CANTA ALELUYA",
+  "section": "Aleluya",
+  "image": "songs/canta-aleluya.png"
+},
+{
+  "id": "aleluya-dios-nos-amo-tanto",
+  "title": "ALELUYA (DIOS NOS AMÓ TANTO)",
+  "section": "Aleluya",
+  "image": "songs/aleluya-dios-nos-amo-tanto.png"
+},
+{
+  "id": "aleluya-nilton",
+  "title": "ALELUYA (NILTON)",
+  "section": "Aleluya",
+  "image": "songs/aleluya-nilton.png"
+},
+{
+  "id": "aleluya-polaco",
+  "title": "ALELUYA (POLACO)",
+  "section": "Aleluya",
+  "image": "songs/aleluya-polaco.png"
 }
 ]
