@@ -1,0 +1,26 @@
+[
+  {
+    "id": "alaba-al-senor",
+    "title": "ALABA AL SEÑOR",
+    "section": "Entrada",
+    "image": "songs/alaba-al-senor.png"
+  },
+  {
+    "id": "dios-esta-aqui",
+    "title": "DIOS ESTÁ AQUÍ",
+    "section": "Entrada",
+    "image": "songs/dios-esta-aqui.png"
+  },
+  {
+    "id": "jesus-esta-entre-nosotros",
+    "title": "JESÚS ESTÁ ENTRE NOSOTROS",
+    "section": "Entrada",
+    "image": "songs/jesus-esta-entre-nosotros.png"
+  },
+  {
+    "id": "yo-celebrare",
+    "title": "YO CELEBRARÉ",
+    "section": "Entrada",
+    "image": "songs/yo-celebrare.png"
+  }
+]
