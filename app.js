@@ -169,7 +169,21 @@ document.getElementById("downloadBtn").addEventListener("click", async ()=>{
       img.onload = resolve;
     });
 
-    pdf.addImage(img, 'PNG', 10, 35, 180, 240);
+    const pageWidth = pdf.internal.pageSize.getWidth();
+    const pageHeight = pdf.internal.pageSize.getHeight();
+
+    const imgWidth = img.width;
+    const imgHeight = img.height;
+
+    const ratio = Math.min(
+      (pageWidth - 20) / imgWidth,
+      (pageHeight - 50) / imgHeight
+    );
+
+    const newWidth = imgWidth * ratio;
+    const newHeight = imgHeight * ratio;
+
+    pdf.addImage(img, 'PNG', 10, 35, newWidth, newHeight);
   }
 
   pdf.save("Programa-de-Misa.pdf");
