@@ -22,5 +22,11 @@
     "title": "YO CELEBRARÉ",
     "section": "Entrada",
     "image": "songs/yo-celebrare.png"
+  },
+  {
+    "id": "vine-a-alabar-a-dioss",
+    "title": "VINE A ALABAR A DIOS",
+    "section": "Entrada",
+    "image": "songs/vine-a-alabar-a-dios"
   }
 ]
