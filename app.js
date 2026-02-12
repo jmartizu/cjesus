@@ -135,53 +135,25 @@ document.getElementById("downloadBtn").addEventListener("click", async ()=>{
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF();
 
-  const ordenLiturgico = [
-    "Entrada",
-    "Acto Penitencial",
-    "Gloria",
-    "Salmo",
-    "Aleluya",
-    "Ofertorio",
-    "Santo",
-    "Paz",
-    "Comunión",
-    "Acción de Gracias",
-    "Salida"
-  ];
+  for (let i = 0; i < selected.length; i++) {
 
-  let primeraPagina = true;
+    if(i > 0) pdf.addPage();
 
-  ordenLiturgico.forEach(seccion => {
+    pdf.setFontSize(18);
+    pdf.text(selected[i].section, 10, 15);
 
-    const cancionesDeSeccion = selected.filter(s => s.section === seccion);
+    pdf.setFontSize(16);
+    pdf.text(selected[i].title, 10, 25);
 
-    if(cancionesDeSeccion.length > 0){
+    const img = new Image();
+    img.src = selected[i].image;
 
-      cancionesDeSeccion.forEach(async (cancion, index)=>{
+    await new Promise(resolve => {
+      img.onload = resolve;
+    });
 
-        if(!primeraPagina){
-          pdf.addPage();
-        }
-
-        primeraPagina = false;
-
-        pdf.setFontSize(20);
-        pdf.text(seccion, 10, 15);
-
-        pdf.setFontSize(16);
-        pdf.text(cancion.title, 10, 25);
-
-        const img = new Image();
-        img.src = cancion.image;
-
-        await new Promise(resolve=>{
-          img.onload = resolve;
-        });
-
-        pdf.addImage(img, 'PNG', 10, 35, 180, 240);
-      });
-    }
-  });
+    pdf.addImage(img, 'PNG', 10, 35, 180, 240);
+  }
 
   pdf.save("Programa-de-Misa.pdf");
 });
