@@ -277,5 +277,11 @@
   "title": "CRISTO, MARAVILLOSO",
   "section": "Post-Comunión",
   "image": "songs/cristo-maravilloso.png"
+},
+{
+  "id": "junto-a-ti-maria",
+  "title": "JUNTO A TI, MARÍA",
+  "section": "Salida",
+  "image": "songs/junto-a-ti-maria.png"
 }
 ]
