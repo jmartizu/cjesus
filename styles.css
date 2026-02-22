@@ -40,6 +40,12 @@ body {
   background: #eee;
 }
 
+.sidebar div.active {
+  background: #2563eb;
+  color: white;
+  font-weight: 500;
+}
+
 .content {
   flex: 1;
   padding: 20px;
@@ -102,7 +108,7 @@ body {
   cursor: pointer;
 }
 
-/* HD IMAGE */
+/* Imagen adaptativa */
 .song-image {
   max-width: 100%;
   max-height: 80vh;
@@ -128,9 +134,4 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.sidebar div.active {
-  background: #2563eb;
-  color: white;
-  font-weight: 500;
 }
