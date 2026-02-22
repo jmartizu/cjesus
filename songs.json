@@ -187,5 +187,23 @@
     "title": "ALELUYA (POLACO)",
     "section": "Aleluya",
     "image": "songs/aleluya-polaco.png"
-  }
+  },
+{
+  "id": "aleluya-ha-nacido",
+  "title": "ALELUYA, HA NACIDO",
+  "section": "Aleluya",
+  "image": "songs/aleluya-ha-nacido.png"
+},
+{
+  "id": "aleluya-colonia-adviento",
+  "title": "ALELUYA (COLONIA) ADVIENTO",
+  "section": "Aleluya",
+  "image": "songs/aleluya-colonia-adviento.png"
+},
+{
+  "id": "aleluya-de-taize",
+  "title": "ALELUYA DE TAIZÉ",
+  "section": "Aleluya",
+  "image": "songs/aleluya-de-taize.png"
+}
 ]
