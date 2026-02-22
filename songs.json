@@ -205,5 +205,53 @@
   "title": "ALELUYA DE TAIZÉ",
   "section": "Aleluya",
   "image": "songs/aleluya-de-taize.png"
+},
+{
+  "id": "yo-no-soy-nada",
+  "title": "YO NO SOY NADA",
+  "section": "Ofertorio",
+  "image": "songs/yo-no-soy-nada.png"
+},
+{
+  "id": "saber-que-vendras",
+  "title": "SABER QUE VENDRÁS",
+  "section": "Ofertorio",
+  "image": "songs/saber-que-vendras.png"
+},
+{
+  "id": "que-te-puedo-dar",
+  "title": "QUE TE PUEDO DAR",
+  "section": "Ofertorio",
+  "image": "songs/que-te-puedo-dar.png"
+},
+{
+  "id": "confio-en-ti",
+  "title": "CONFÍO EN TI",
+  "section": "Ofertorio",
+  "image": "songs/confio-en-ti.png"
+},
+{
+  "id": "quiero",
+  "title": "QUIERO",
+  "section": "Ofertorio",
+  "image": "songs/quiero.png"
+},
+{
+  "id": "llename-senor",
+  "title": "LLÉNAME, SEÑOR",
+  "section": "Ofertorio",
+  "image": "songs/llename-senor.png"
+},
+{
+  "id": "ven-no-apartes-de-mi",
+  "title": "VEN, NO APARTES DE MÍ",
+  "section": "Ofertorio",
+  "image": "songs/ven-no-apartes-de-mi.png"
+},
+{
+  "id": "renuevame-betel",
+  "title": "RENUÉVAME (BETEL)",
+  "section": "Ofertorio",
+  "image": "songs/renuevame-betel.png"
 }
 ]
