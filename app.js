@@ -129,7 +129,7 @@ document.getElementById("downloadBtn").addEventListener("click", async () => {
 
   const pageWidth = 210;
   const pageHeight = 297;
-  const margin = 10;
+  const margin = 15;
   const today = new Date().toLocaleDateString("es-ES");
 
   for (let i = 0; i < selected.length; i++) {
@@ -144,8 +144,7 @@ document.getElementById("downloadBtn").addEventListener("click", async () => {
     pdf.text("Fecha: " + today, pageWidth / 2, 22, { align: "center" });
 
     pdf.setFontSize(13);
-    pdf.text(selected[i].section, margin, 35);
-    pdf.text(selected[i].title, margin, 43);
+    pdf.text(selected[i].section + " - " + selected[i].title, margin, 35);
 
     const img = new Image();
     img.src = selected[i].image;
@@ -153,33 +152,23 @@ document.getElementById("downloadBtn").addEventListener("click", async () => {
     await new Promise(resolve => img.onload = resolve);
 
     const usableWidth = pageWidth - margin * 2;
-    const usableHeight = pageHeight - 60;
+    const usableHeight = pageHeight - 55;
 
-    const imgRatio = img.height / img.width;
-    const imgWidth = usableWidth;
-    const imgHeight = imgWidth * imgRatio;
+    const imgRatio = img.width / img.height;
 
-    let heightLeft = imgHeight;
-    let position = 50;
+    let finalWidth = usableWidth;
+    let finalHeight = finalWidth / imgRatio;
 
-    pdf.addImage(img, 'PNG', margin, position, imgWidth, imgHeight);
-
-    heightLeft -= usableHeight;
-
-    while (heightLeft > 0) {
-      pdf.addPage();
-
-      pdf.addImage(
-        img,
-        'PNG',
-        margin,
-        position - imgHeight + heightLeft,
-        imgWidth,
-        imgHeight
-      );
-
-      heightLeft -= usableHeight;
+    // Si se pasa en altura, ajustamos por altura
+    if (finalHeight > usableHeight) {
+      finalHeight = usableHeight;
+      finalWidth = finalHeight * imgRatio;
     }
+
+    const x = (pageWidth - finalWidth) / 2;
+    const y = 45;
+
+    pdf.addImage(img, 'PNG', x, y, finalWidth, finalHeight);
   }
 
   pdf.save("Programa-de-Misa.pdf");
