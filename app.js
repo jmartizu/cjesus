@@ -14,52 +14,16 @@ function renderSections(){
   const c = document.getElementById("sections");
   c.innerHTML = "";
 
-  const ordenLiturgico = [
-    "Entrada",
-    "Acto Penitencial",
-    "Gloria",
-    "Salmo",
-    "Aleluya",
-    "Ofertorio",
-    "Santo",
-    "Paz",
-    "Comunión",
-    "Acción de Gracias",
-    "Salida"
-  ];
-
-  const categoriasExistentes = [...new Set(songs.map(x => x.section.trim()))];
-
-  let categoriasOrdenadas = [];
-
-  ordenLiturgico.forEach(cat => {
-    if(categoriasExistentes.includes(cat)){
-      categoriasOrdenadas.push(cat);
-    }
-  });
-
-  categoriasExistentes.forEach(cat => {
-    if(!categoriasOrdenadas.includes(cat)){
-      categoriasOrdenadas.push(cat);
-    }
-  });
-
-  const seccionesFinales = ["Todas", ...categoriasOrdenadas];
+  const categoriasExistentes = [...new Set(songs.map(x => x.section))];
+  const seccionesFinales = ["Todas", ...categoriasExistentes];
 
   seccionesFinales.forEach(sec => {
     const d = document.createElement("div");
     d.textContent = sec;
-
-    if(sec === currentSection){
-      d.classList.add("active-section");
-    }
-
     d.onclick = () => {
       currentSection = sec;
-      renderSections();
       renderSongs();
     };
-
     c.appendChild(d);
   });
 }
@@ -142,6 +106,7 @@ function openSong(song){
   document.getElementById("songDialog").showModal();
 }
 
+/* PDF HD PERFECTO */
 document.getElementById("downloadBtn").addEventListener("click", async ()=>{
 
   if(selected.length===0){
@@ -150,7 +115,13 @@ document.getElementById("downloadBtn").addEventListener("click", async ()=>{
   }
 
   const { jsPDF } = window.jspdf;
-  const pdf = new jsPDF();
+
+  const pdf = new jsPDF({
+    orientation: "portrait",
+    unit: "mm",
+    format: "a4",
+    compress: false
+  });
 
   for (let i = 0; i < selected.length; i++) {
 
@@ -170,20 +141,11 @@ document.getElementById("downloadBtn").addEventListener("click", async ()=>{
     });
 
     const pageWidth = pdf.internal.pageSize.getWidth();
-    const pageHeight = pdf.internal.pageSize.getHeight();
+    const margin = 10;
+    const imgWidth = pageWidth - margin * 2;
+    const imgHeight = (img.height * imgWidth) / img.width;
 
-    const imgWidth = img.width;
-    const imgHeight = img.height;
-
-    const ratio = Math.min(
-      (pageWidth - 20) / imgWidth,
-      (pageHeight - 50) / imgHeight
-    );
-
-    const newWidth = imgWidth * ratio;
-    const newHeight = imgHeight * ratio;
-
-    pdf.addImage(img, 'PNG', 10, 35, newWidth, newHeight);
+    pdf.addImage(img, 'PNG', margin, 35, imgWidth, imgHeight);
   }
 
   pdf.save("Programa-de-Misa.pdf");
