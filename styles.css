@@ -112,11 +112,15 @@ body {
 }
 
 #songDialog {
-  width: 90%;
-  max-width: 1300px;
+  width: 95vw;
+  height: 95vh;
   border: none;
   border-radius: 12px;
   padding: 20px;
+}
+
+#songDialog::backdrop {
+  background: rgba(0,0,0,0.6);
 }
 
 .dialog-header {
