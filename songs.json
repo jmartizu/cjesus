@@ -253,5 +253,11 @@
   "title": "RENUÉVAME (BETEL)",
   "section": "Ofertorio",
   "image": "songs/renuevame-betel.png"
+},
+{
+  "id": "santo-beatles",
+  "title": "SANTO (BEATLES)",
+  "section": "Santo",
+  "image": "songs/santo-beatles.png"
 }
 ]
