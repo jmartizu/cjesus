@@ -20,10 +20,17 @@ function renderSections(){
   seccionesFinales.forEach(sec => {
     const d = document.createElement("div");
     d.textContent = sec;
+
+    if(sec === currentSection){
+      d.classList.add("active");
+    }
+
     d.onclick = () => {
       currentSection = sec;
+      renderSections(); // 🔥 vuelve a pintar para marcar activa
       renderSongs();
     };
+
     c.appendChild(d);
   });
 }
