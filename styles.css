@@ -124,3 +124,8 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.sidebar div.active {
+  background: #2563eb;
+  color: white;
+  font-weight: 500;
+}
