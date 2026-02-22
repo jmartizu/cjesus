@@ -124,30 +124,27 @@ document.getElementById("downloadBtn").addEventListener("click", async () => {
   const pdf = new jsPDF({
     orientation: "portrait",
     unit: "mm",
-    format: "a4",
-    compress: false
+    format: "a4"
   });
 
-  const pageWidth = pdf.internal.pageSize.getWidth();
-  const pageHeight = pdf.internal.pageSize.getHeight();
+  const pageWidth = 210;
+  const pageHeight = 297;
   const margin = 10;
-
   const today = new Date().toLocaleDateString("es-ES");
 
   for (let i = 0; i < selected.length; i++) {
 
     if (i > 0) pdf.addPage();
 
-    pdf.setFontSize(18);
-    pdf.text("Parroquia Santa Vicenta y Corazón de Jesús", pageWidth/2, 15, { align: "center" });
+    // Encabezado
+    pdf.setFontSize(16);
+    pdf.text("Parroquia Santa Vicenta y Corazón de Jesús", pageWidth / 2, 15, { align: "center" });
 
-    pdf.setFontSize(12);
-    pdf.text("Fecha: " + today, pageWidth/2, 22, { align: "center" });
+    pdf.setFontSize(11);
+    pdf.text("Fecha: " + today, pageWidth / 2, 22, { align: "center" });
 
-    pdf.setFontSize(14);
+    pdf.setFontSize(13);
     pdf.text(selected[i].section, margin, 35);
-
-    pdf.setFontSize(14);
     pdf.text(selected[i].title, margin, 43);
 
     const img = new Image();
@@ -155,27 +152,33 @@ document.getElementById("downloadBtn").addEventListener("click", async () => {
 
     await new Promise(resolve => img.onload = resolve);
 
-    const imgWidth = pageWidth - margin * 2;
-    const imgHeight = (img.height * imgWidth) / img.width;
+    const usableWidth = pageWidth - margin * 2;
+    const usableHeight = pageHeight - 60;
 
+    const imgRatio = img.height / img.width;
+    const imgWidth = usableWidth;
+    const imgHeight = imgWidth * imgRatio;
+
+    let heightLeft = imgHeight;
     let position = 50;
-    let remainingHeight = imgHeight;
 
-    while (remainingHeight > 0) {
+    pdf.addImage(img, 'PNG', margin, position, imgWidth, imgHeight);
 
-      const pageAvailableHeight = pageHeight - position - margin;
-      const heightToPrint = Math.min(remainingHeight, pageAvailableHeight);
+    heightLeft -= usableHeight;
 
-      pdf.addImage(img, 'PNG', margin, position, imgWidth, imgHeight);
+    while (heightLeft > 0) {
+      pdf.addPage();
 
-      remainingHeight -= pageAvailableHeight;
+      pdf.addImage(
+        img,
+        'PNG',
+        margin,
+        position - imgHeight + heightLeft,
+        imgWidth,
+        imgHeight
+      );
 
-      if (remainingHeight > 0) {
-        pdf.addPage();
-        position = margin;
-      } else {
-        break;
-      }
+      heightLeft -= usableHeight;
     }
   }
 
