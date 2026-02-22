@@ -265,5 +265,11 @@
   "title": "PON TU MANO",
   "section": "Paz",
   "image": "songs/pon-tu-mano.png"
+},
+{
+  "id": "como-el-padre-me-amo",
+  "title": "COMO EL PADRE ME AMÓ",
+  "section": "Comunión",
+  "image": "songs/como-el-padre-me-amo.png"
 }
 ]
