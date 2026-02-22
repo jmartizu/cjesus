@@ -107,4 +107,28 @@
   "section": "Aleluya",
   "image": "songs/aleluya-polaco.png"
 }
-]
+],
+{
+  "id": "ven-senor-no-tardes",
+  "title": "VEN, SEÑOR, NO TARDES",
+  "section": "Entrada",
+  "image": "songs/ven-senor-no-tardes.png"
+},
+{
+  "id": "preparad-el-camino",
+  "title": "PREPARAD EL CAMINO",
+  "section": "Entrada",
+  "image": "songs/preparad-el-camino.png"
+},
+{
+  "id": "vamos-a-preparar",
+  "title": "VAMOS A PREPARAR",
+  "section": "Entrada",
+  "image": "songs/vamos-a-preparar.png"
+},
+{
+  "id": "camina-pueblo-de-dios",
+  "title": "CAMINA PUEBLO DE DIOS",
+  "section": "Entrada",
+  "image": "songs/camina-pueblo-de-dios.png"
+}
