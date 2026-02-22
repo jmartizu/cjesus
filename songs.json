@@ -271,5 +271,11 @@
   "title": "COMO EL PADRE ME AMÓ",
   "section": "Comunión",
   "image": "songs/como-el-padre-me-amo.png"
+},
+{
+  "id": "cristo-maravilloso",
+  "title": "CRISTO, MARAVILLOSO",
+  "section": "Post-Comunión",
+  "image": "songs/cristo-maravilloso.png"
 }
 ]
