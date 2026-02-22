@@ -30,6 +30,31 @@
     "image": "songs/vine-a-alabar-a-dios.png"
   },
   {
+    "id": "ven-senor-no-tardes",
+    "title": "VEN, SEÑOR, NO TARDES",
+    "section": "Entrada",
+    "image": "songs/ven-senor-no-tardes.png"
+  },
+  {
+    "id": "preparad-el-camino",
+    "title": "PREPARAD EL CAMINO",
+    "section": "Entrada",
+    "image": "songs/preparad-el-camino.png"
+  },
+  {
+    "id": "vamos-a-preparar",
+    "title": "VAMOS A PREPARAR",
+    "section": "Entrada",
+    "image": "songs/vamos-a-preparar.png"
+  },
+  {
+    "id": "camina-pueblo-de-dios",
+    "title": "CAMINA PUEBLO DE DIOS",
+    "section": "Entrada",
+    "image": "songs/camina-pueblo-de-dios.png"
+  },
+
+  {
     "id": "habla-senor",
     "title": "HABLA, SEÑOR",
     "section": "Salmo",
@@ -71,6 +96,62 @@
     "section": "Salmo",
     "image": "songs/nada-nos-separara.png"
   },
+
+  {
+    "id": "laudate-omnes-gentes",
+    "title": "LAUDATE OMNES GENTES",
+    "section": "Salmo",
+    "image": "songs/laudate-omnes-gentes.png"
+  },
+  {
+    "id": "padre-unenos",
+    "title": "PADRE, ÚNENOS",
+    "section": "Salmo",
+    "image": "songs/padre-unenos.png"
+  },
+  {
+    "id": "las-misericordias-del-senor",
+    "title": "LAS MISERICORDIAS DEL SEÑOR",
+    "section": "Salmo",
+    "image": "songs/las-misericordias-del-senor.png"
+  },
+  {
+    "id": "el-senor-es-mi-luz",
+    "title": "EL SEÑOR ES MI LUZ",
+    "section": "Salmo",
+    "image": "songs/el-senor-es-mi-luz.png"
+  },
+  {
+    "id": "como-te-podre-pagar",
+    "title": "¿CÓMO TE PODRÉ PAGAR?",
+    "section": "Salmo",
+    "image": "songs/como-te-podre-pagar.png"
+  },
+  {
+    "id": "recibeme",
+    "title": "RECÍBEME",
+    "section": "Salmo",
+    "image": "songs/recibeme.png"
+  },
+  {
+    "id": "el-senor-reina",
+    "title": "EL SEÑOR REINA",
+    "section": "Salmo",
+    "image": "songs/el-senor-reina.png"
+  },
+  {
+    "id": "magnificat",
+    "title": "MAGNIFICAT",
+    "section": "Salmo",
+    "image": "songs/magnificat.png"
+  },
+  {
+    "id": "alabare",
+    "title": "ALABARÉ",
+    "section": "Salmo",
+    "image": "songs/alabare.png"
+  },
+
   {
     "id": "jesus-es-senor",
     "title": "JESÚS ES SEÑOR",
@@ -106,29 +187,5 @@
     "title": "ALELUYA (POLACO)",
     "section": "Aleluya",
     "image": "songs/aleluya-polaco.png"
-  },
-  {
-    "id": "ven-senor-no-tardes",
-    "title": "VEN, SEÑOR, NO TARDES",
-    "section": "Entrada",
-    "image": "songs/ven-senor-no-tardes.png"
-  },
-  {
-    "id": "preparad-el-camino",
-    "title": "PREPARAD EL CAMINO",
-    "section": "Entrada",
-    "image": "songs/preparad-el-camino.png"
-  },
-  {
-    "id": "vamos-a-preparar",
-    "title": "VAMOS A PREPARAR",
-    "section": "Entrada",
-    "image": "songs/vamos-a-preparar.png"
-  },
-  {
-    "id": "camina-pueblo-de-dios",
-    "title": "CAMINA PUEBLO DE DIOS",
-    "section": "Entrada",
-    "image": "songs/camina-pueblo-de-dios.png"
   }
 ]
