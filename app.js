@@ -27,7 +27,7 @@ function renderSections(){
 
     d.onclick = () => {
       currentSection = sec;
-      renderSections(); // 🔥 vuelve a pintar para marcar activa
+      renderSections();
       renderSongs();
     };
 
@@ -73,7 +73,6 @@ function renderSelected(){
   c.innerHTML = "";
 
   selected.forEach((s,i)=>{
-
     const row = document.createElement("div");
     row.className="selected-item";
 
@@ -98,7 +97,6 @@ function renderSelected(){
 
     actions.appendChild(eye);
     actions.appendChild(remove);
-
     row.appendChild(title);
     row.appendChild(actions);
     c.appendChild(row);
@@ -113,10 +111,10 @@ function openSong(song){
   document.getElementById("songDialog").showModal();
 }
 
-/* PDF HD PERFECTO */
-document.getElementById("downloadBtn").addEventListener("click", async ()=>{
+/* PDF MULTIPÁGINA + FECHA + PARROQUIA */
+document.getElementById("downloadBtn").addEventListener("click", async () => {
 
-  if(selected.length===0){
+  if (selected.length === 0) {
     alert("No hay canciones seleccionadas");
     return;
   }
@@ -130,29 +128,55 @@ document.getElementById("downloadBtn").addEventListener("click", async ()=>{
     compress: false
   });
 
+  const pageWidth = pdf.internal.pageSize.getWidth();
+  const pageHeight = pdf.internal.pageSize.getHeight();
+  const margin = 10;
+
+  const today = new Date().toLocaleDateString("es-ES");
+
   for (let i = 0; i < selected.length; i++) {
 
-    if(i > 0) pdf.addPage();
+    if (i > 0) pdf.addPage();
 
     pdf.setFontSize(18);
-    pdf.text(selected[i].section, 10, 15);
+    pdf.text("Parroquia Santa Vicenta y Corazón de Jesús", pageWidth/2, 15, { align: "center" });
 
-    pdf.setFontSize(16);
-    pdf.text(selected[i].title, 10, 25);
+    pdf.setFontSize(12);
+    pdf.text("Fecha: " + today, pageWidth/2, 22, { align: "center" });
+
+    pdf.setFontSize(14);
+    pdf.text(selected[i].section, margin, 35);
+
+    pdf.setFontSize(14);
+    pdf.text(selected[i].title, margin, 43);
 
     const img = new Image();
     img.src = selected[i].image;
 
-    await new Promise(resolve => {
-      img.onload = resolve;
-    });
+    await new Promise(resolve => img.onload = resolve);
 
-    const pageWidth = pdf.internal.pageSize.getWidth();
-    const margin = 10;
     const imgWidth = pageWidth - margin * 2;
     const imgHeight = (img.height * imgWidth) / img.width;
 
-    pdf.addImage(img, 'PNG', margin, 35, imgWidth, imgHeight);
+    let position = 50;
+    let remainingHeight = imgHeight;
+
+    while (remainingHeight > 0) {
+
+      const pageAvailableHeight = pageHeight - position - margin;
+      const heightToPrint = Math.min(remainingHeight, pageAvailableHeight);
+
+      pdf.addImage(img, 'PNG', margin, position, imgWidth, imgHeight);
+
+      remainingHeight -= pageAvailableHeight;
+
+      if (remainingHeight > 0) {
+        pdf.addPage();
+        position = margin;
+      } else {
+        break;
+      }
+    }
   }
 
   pdf.save("Programa-de-Misa.pdf");
