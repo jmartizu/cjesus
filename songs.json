@@ -259,5 +259,11 @@
   "title": "SANTO (BEATLES)",
   "section": "Santo",
   "image": "songs/santo-beatles.png"
+},
+{
+  "id": "pon-tu-mano",
+  "title": "PON TU MANO",
+  "section": "Paz",
+  "image": "songs/pon-tu-mano.png"
 }
 ]
