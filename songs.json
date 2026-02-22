@@ -29,105 +29,106 @@
     "section": "Entrada",
     "image": "songs/vine-a-alabar-a-dios.png"
   },
-{
-  "id": "habla-senor",
-  "title": "HABLA, SEÑOR",
-  "section": "Salmo",
-  "image": "songs/habla-senor.png"
-},
-{
-  "id": "ubi-caritas",
-  "title": "UBI CARITAS",
-  "section": "Salmo",
-  "image": "songs/ubi-caritas.png"
-},
-{
-  "id": "sois-la-sal",
-  "title": "SOIS LA SAL",
-  "section": "Salmo",
-  "image": "songs/sois-la-sal.png"
-},
-{
-  "id": "el-senor-es-mi-pastor",
-  "title": "EL SEÑOR ES MI PASTOR",
-  "section": "Salmo",
-  "image": "songs/el-senor-es-mi-pastor.png"
-},
-{
-  "id": "crea-en-mi-oh-dios",
-  "title": "CREA EN MÍ, OH DIOS",
-  "section": "Salmo",
-  "image": "songs/crea-en-mi-oh-dios.png"
-},
-{
-  "id": "siento-tu-llamada",
-  "title": "SIENTO TU LLAMADA",
-  "section": "Salmo",
-  "image": "songs/siento-tu-llamada.png"
-},
-{
-  "id": "nada-nos-separara",
-  "title": "NADA NOS SEPARARÁ",
-  "section": "Salmo",
-  "image": "songs/nada-nos-separara.png"
-},
-{
-  "id": "jesus-es-senor",
-  "title": "JESÚS ES SEÑOR",
-  "section": "Aleluya",
-  "image": "songs/jesus-es-senor.png"
-},
-{
-  "id": "aleluya-cantara",
-  "title": "ALELUYA CANTARÁ",
-  "section": "Aleluya",
-  "image": "songs/aleluya-cantara.png"
-},
-{
-  "id": "canta-aleluya",
-  "title": "CANTA ALELUYA",
-  "section": "Aleluya",
-  "image": "songs/canta-aleluya.png"
-},
-{
-  "id": "aleluya-dios-nos-amo-tanto",
-  "title": "ALELUYA (DIOS NOS AMÓ TANTO)",
-  "section": "Aleluya",
-  "image": "songs/aleluya-dios-nos-amo-tanto.png"
-},
-{
-  "id": "aleluya-nilton",
-  "title": "ALELUYA (NILTON)",
-  "section": "Aleluya",
-  "image": "songs/aleluya-nilton.png"
-},
-{
-  "id": "aleluya-polaco",
-  "title": "ALELUYA (POLACO)",
-  "section": "Aleluya",
-  "image": "songs/aleluya-polaco.png"
-],
-{
-  "id": "ven-senor-no-tardes",
-  "title": "VEN, SEÑOR, NO TARDES",
-  "section": "Entrada",
-  "image": "songs/ven-senor-no-tardes.png"
-},
-{
-  "id": "preparad-el-camino",
-  "title": "PREPARAD EL CAMINO",
-  "section": "Entrada",
-  "image": "songs/preparad-el-camino.png"
-},
-{
-  "id": "vamos-a-preparar",
-  "title": "VAMOS A PREPARAR",
-  "section": "Entrada",
-  "image": "songs/vamos-a-preparar.png"
-},
-{
-  "id": "camina-pueblo-de-dios",
-  "title": "CAMINA PUEBLO DE DIOS",
-  "section": "Entrada",
-  "image": "songs/camina-pueblo-de-dios.png"
-}
+  {
+    "id": "habla-senor",
+    "title": "HABLA, SEÑOR",
+    "section": "Salmo",
+    "image": "songs/habla-senor.png"
+  },
+  {
+    "id": "ubi-caritas",
+    "title": "UBI CARITAS",
+    "section": "Salmo",
+    "image": "songs/ubi-caritas.png"
+  },
+  {
+    "id": "sois-la-sal",
+    "title": "SOIS LA SAL",
+    "section": "Salmo",
+    "image": "songs/sois-la-sal.png"
+  },
+  {
+    "id": "el-senor-es-mi-pastor",
+    "title": "EL SEÑOR ES MI PASTOR",
+    "section": "Salmo",
+    "image": "songs/el-senor-es-mi-pastor.png"
+  },
+  {
+    "id": "crea-en-mi-oh-dios",
+    "title": "CREA EN MÍ, OH DIOS",
+    "section": "Salmo",
+    "image": "songs/crea-en-mi-oh-dios.png"
+  },
+  {
+    "id": "siento-tu-llamada",
+    "title": "SIENTO TU LLAMADA",
+    "section": "Salmo",
+    "image": "songs/siento-tu-llamada.png"
+  },
+  {
+    "id": "nada-nos-separara",
+    "title": "NADA NOS SEPARARÁ",
+    "section": "Salmo",
+    "image": "songs/nada-nos-separara.png"
+  },
+  {
+    "id": "jesus-es-senor",
+    "title": "JESÚS ES SEÑOR",
+    "section": "Aleluya",
+    "image": "songs/jesus-es-senor.png"
+  },
+  {
+    "id": "aleluya-cantara",
+    "title": "ALELUYA CANTARÁ",
+    "section": "Aleluya",
+    "image": "songs/aleluya-cantara.png"
+  },
+  {
+    "id": "canta-aleluya",
+    "title": "CANTA ALELUYA",
+    "section": "Aleluya",
+    "image": "songs/canta-aleluya.png"
+  },
+  {
+    "id": "aleluya-dios-nos-amo-tanto",
+    "title": "ALELUYA (DIOS NOS AMÓ TANTO)",
+    "section": "Aleluya",
+    "image": "songs/aleluya-dios-nos-amo-tanto.png"
+  },
+  {
+    "id": "aleluya-nilton",
+    "title": "ALELUYA (NILTON)",
+    "section": "Aleluya",
+    "image": "songs/aleluya-nilton.png"
+  },
+  {
+    "id": "aleluya-polaco",
+    "title": "ALELUYA (POLACO)",
+    "section": "Aleluya",
+    "image": "songs/aleluya-polaco.png"
+  },
+  {
+    "id": "ven-senor-no-tardes",
+    "title": "VEN, SEÑOR, NO TARDES",
+    "section": "Entrada",
+    "image": "songs/ven-senor-no-tardes.png"
+  },
+  {
+    "id": "preparad-el-camino",
+    "title": "PREPARAD EL CAMINO",
+    "section": "Entrada",
+    "image": "songs/preparad-el-camino.png"
+  },
+  {
+    "id": "vamos-a-preparar",
+    "title": "VAMOS A PREPARAR",
+    "section": "Entrada",
+    "image": "songs/vamos-a-preparar.png"
+  },
+  {
+    "id": "camina-pueblo-de-dios",
+    "title": "CAMINA PUEBLO DE DIOS",
+    "section": "Entrada",
+    "image": "songs/camina-pueblo-de-dios.png"
+  }
+]
