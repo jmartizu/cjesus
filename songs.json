@@ -385,5 +385,53 @@
   "title": "ANDANDO POR EL CAMINO",
   "section": "Comunión",
   "image": "songs/andando-por-el-camino.png"
+},
+{
+  "id": "en-momentos-asi",
+  "title": "EN MOMENTOS ASÍ",
+  "section": "Post-Comunión",
+  "image": "songs/en-momentos-asi.png"
+},
+{
+  "id": "no-adoreis-a-nadie",
+  "title": "NO ADORÉIS A NADIE",
+  "section": "Post-Comunión",
+  "image": "songs/no-adoreis-a-nadie.png"
+},
+{
+  "id": "nadie-te-ama-como-yo",
+  "title": "NADIE TE AMA COMO YO",
+  "section": "Post-Comunión",
+  "image": "songs/nadie-te-ama-como-yo.png"
+},
+{
+  "id": "postrado-ante-la-cruz",
+  "title": "POSTRADO ANTE LA CRUZ (C-2)",
+  "section": "Post-Comunión",
+  "image": "songs/postrado-ante-la-cruz.png"
+},
+{
+  "id": "gracias-senor-infinito-es-tu-amor",
+  "title": "GRACIAS, SEÑOR, INFINITO ES TU AMOR (C-2)",
+  "section": "Post-Comunión",
+  "image": "songs/gracias-senor-infinito-es-tu-amor.png"
+},
+{
+  "id": "al-estar-ante-ti",
+  "title": "AL ESTAR ANTE TI",
+  "section": "Post-Comunión",
+  "image": "songs/al-estar-ante-ti.png"
+},
+{
+  "id": "tomad-senor",
+  "title": "TOMAD SEÑOR",
+  "section": "Post-Comunión",
+  "image": "songs/tomad-senor.png"
+},
+{
+  "id": "soneto",
+  "title": "SONETO (C-2)",
+  "section": "Post-Comunión",
+  "image": "songs/soneto.png"
 }
 ]
