@@ -307,5 +307,35 @@
   "title": "SANTO NAVARRO (C-2)",
   "section": "Santo",
   "image": "songs/santo-navarro.png"
+},
+{
+  "id": "oracion-de-la-sencillez",
+  "title": "ORACIÓN DE LA SENCILLEZ",
+  "section": "Paz",
+  "image": "songs/oracion-de-la-sencillez.png"
+},
+{
+  "id": "paz-para-respirar",
+  "title": "PAZ PARA RESPIRAR",
+  "section": "Paz",
+  "image": "songs/paz-para-respirar.png"
+},
+{
+  "id": "paz-senor",
+  "title": "PAZ SEÑOR",
+  "section": "Paz",
+  "image": "songs/paz-senor.png"
+},
+{
+  "id": "la-paz-te-doy",
+  "title": "LA PAZ TE DOY",
+  "section": "Paz",
+  "image": "songs/la-paz-te-doy.png"
+},
+{
+  "id": "paz",
+  "title": "PAZ",
+  "section": "Paz",
+  "image": "songs/paz.png"
 }
 ]
