@@ -283,5 +283,29 @@
   "title": "JUNTO A TI, MARÍA",
   "section": "Salida",
   "image": "songs/junto-a-ti-maria.png"
+},
+{
+  "id": "santo-jesus",
+  "title": "SANTO (Jesús)",
+  "section": "Santo",
+  "image": "songs/santo-jesus.png"
+},
+{
+  "id": "santo-betel",
+  "title": "SANTO BETEL",
+  "section": "Santo",
+  "image": "songs/santo-betel.png"
+},
+{
+  "id": "santo-carismatico",
+  "title": "SANTO CARISMÁTICO",
+  "section": "Santo",
+  "image": "songs/santo-carismatico.png"
+},
+{
+  "id": "santo-navarro",
+  "title": "SANTO NAVARRO (C-2)",
+  "section": "Santo",
+  "image": "songs/santo-navarro.png"
 }
 ]
