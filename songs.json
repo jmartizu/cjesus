@@ -475,5 +475,58 @@
   "title": "EN MI DEBILIDAD",
   "section": "Post-Comunión",
   "image": "songs/en-mi-debilidad.png"
+},
+{
+  "id": "junto-a-ti-maria",
+  "title": "JUNTO A TI, MARÍA",
+  "section": "Salida",
+  "image": "songs/junto-a-ti-maria.png"
+},
+{
+  "id": "tantas-cosas-en-la-vida",
+  "title": "TANTAS COSAS EN LA VIDA",
+  "section": "Salida",
+  "image": "songs/tantas-cosas-en-la-vida.png"
+},
+{
+  "id": "la-virgen-suena-caminos",
+  "title": "LA VIRGEN SUEÑA CAMINOS",
+  "section": "Salida",
+  "image": "songs/la-virgen-suena-caminos.png"
+},
+{
+  "id": "dulce-madre",
+  "title": "DULCE MADRE",
+  "section": "Salida",
+  "image": "songs/dulce-madre.png"
+},
+{
+  "id": "hoy-te-quiero-cantar",
+  "title": "HOY TE QUIERO CANTAR",
+  "section": "Salida",
+  "image": "songs/hoy-te-quiero-cantar.png"
+},
+{
+  "id": "cuantas-veces-siendo-nino",
+  "title": "CUANTAS VECES SIENDO NIÑO",
+  "section": "Salida",
+  "image": "songs/cuantas-veces-siendo-nino.png"
+},
+{
+  "id": "mientras-recorres-la-vida",
+  "title": "MIENTRAS RECORRES LA VIDA",
+  "section": "Salida",
+  "image": "songs/mientras-recorres-la-vida.png"
+},
+{
+  "id": "todo-tuyo-soy-maria-c2",
+  "title": "TODO TUYO SOY MARÍA (C-2)",
+  "section": "Salida",
+  "image": "songs/todo-tuyo-soy-maria-c2.png"
+},
+{
+  "id": "maria-mirame",
+  "title": "MARÍA MÍRAME",
+  "section": "Salida",
+  "image": "songs/maria-mirame.png"
 }
-]
