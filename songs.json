@@ -433,5 +433,46 @@
   "title": "SONETO (C-2)",
   "section": "Post-Comunión",
   "image": "songs/soneto.png"
+}{
+  "id": "ven-amor-de-dios",
+  "title": "VEN, AMOR DE DIOS",
+  "section": "Post-Comunión",
+  "image": "songs/ven-amor-de-dios.png"
+},
+{
+  "id": "alma-de-cristo-c2",
+  "title": "ALMA DE CRISTO (C-2)",
+  "section": "Post-Comunión",
+  "image": "songs/alma-de-cristo-c2.png"
+},
+{
+  "id": "senor-mio-y-dios-mio",
+  "title": "SEÑOR MÍO Y DIOS MÍO",
+  "section": "Post-Comunión",
+  "image": "songs/senor-mio-y-dios-mio.png"
+},
+{
+  "id": "aunque-mis-ojos",
+  "title": "AUNQUE MIS OJOS",
+  "section": "Post-Comunión",
+  "image": "songs/aunque-mis-ojos.png"
+},
+{
+  "id": "pretorio",
+  "title": "PRETORIO",
+  "section": "Post-Comunión",
+  "image": "songs/pretorio.png"
+},
+{
+  "id": "ya-no-eres-pan-y-vino-c1",
+  "title": "YA NO ERES PAN Y VINO (C-1)",
+  "section": "Post-Comunión",
+  "image": "songs/ya-no-eres-pan-y-vino-c1.png"
+},
+{
+  "id": "en-mi-debilidad",
+  "title": "EN MI DEBILIDAD",
+  "section": "Post-Comunión",
+  "image": "songs/en-mi-debilidad.png"
 }
 ]
