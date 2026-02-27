@@ -337,5 +337,59 @@
   "title": "PAZ EN LA TIERRA",
   "section": "Paz",
   "image": "songs/paz-en-la-tierra.png"
+},
+{
+  "id": "oracion-del-pobre",
+  "title": "ORACIÓN DEL POBRE",
+  "section": "Comunión",
+  "image": "songs/oracion-del-pobre.png"
+},
+{
+  "id": "cristo-te-necesita",
+  "title": "CRISTO TE NECESITA (C-2)",
+  "section": "Comunión",
+  "image": "songs/cristo-te-necesita.png"
+},
+{
+  "id": "como-el-padre-me-amo",
+  "title": "COMO EL PADRE ME AMÓ",
+  "section": "Comunión",
+  "image": "songs/como-el-padre-me-amo.png"
+},
+{
+  "id": "vaso-nuevo",
+  "title": "VASO NUEVO",
+  "section": "Comunión",
+  "image": "songs/vaso-nuevo.png"
+},
+{
+  "id": "nadie-hay-tan-grande",
+  "title": "NADIE HAY TAN GRANDE",
+  "section": "Comunión",
+  "image": "songs/nadie-hay-tan-grande.png"
+},
+{
+  "id": "este-es-el-dia",
+  "title": "ESTE ES EL DÍA",
+  "section": "Comunión",
+  "image": "songs/este-es-el-dia.png"
+},
+{
+  "id": "tu-has-venido-a-la-orilla",
+  "title": "TÚ HAS VENIDO A LA ORILLA",
+  "section": "Comunión",
+  "image": "songs/tu-has-venido-a-la-orilla.png"
+},
+{
+  "id": "tan-cerca-de-mi",
+  "title": "TAN CERCA DE MÍ",
+  "section": "Comunión",
+  "image": "songs/tan-cerca-de-mi.png"
+},
+{
+  "id": "andando-por-el-camino",
+  "title": "ANDANDO POR EL CAMINO",
+  "section": "Comunión",
+  "image": "songs/andando-por-el-camino.png"
 }
 ]
