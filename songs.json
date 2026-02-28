@@ -523,5 +523,11 @@
   "title": "MARÍA MÍRAME",
   "section": "Salida",
   "image": "songs/maria-mirame.png"
+},
+{
+  "id": "dentro-de-mi",
+  "title": "DENTRO DE MÍ",
+  "section": "Comunión",
+  "image": "songs/dentro-de-mi.png"
 }
 ]
