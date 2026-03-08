@@ -529,5 +529,16 @@
   "title": "DENTRO DE MÍ",
   "section": "Comunión",
   "image": "./songs/dentro-de-mi.png"
+},
+{
+  "id": "mas-alla",
+  "title": "MÁS ALLÁ",
+  "section": "Ofertorio",
+  "image": "songs/mas-alla.png"
+},
+{
+  "id": "bendecid-al-senor",
+  "title": "BENDECID AL SEÑOR",
+  "section": "Salmo",
+  "image": "songs/bendecid-al-senor.png"
 }
-]
