@@ -541,5 +541,71 @@
   "title": "BENDECID AL SEÑOR",
   "section": "Salmo",
   "image": "songs/bendecid-al-senor.png"
+},
+{
+  "id": "pueblo-de-reyes",
+  "title": "PUEBLO DE REYES",
+  "section": "Entrada",
+  "image": "songs/pueblo-de-reyes.png"
+},
+{
+  "id": "cristo-oh-cristo",
+  "title": "CRISTO, OH CRISTO",
+  "section": "Entrada",
+  "image": "songs/cristo-oh-cristo.png"
+},
+{
+  "id": "hay-que-nacer-del-agua",
+  "title": "HAY QUE NACER DEL AGUA",
+  "section": "Ofertorio",
+  "image": "songs/hay-que-nacer-del-agua.png"
+},
+{
+  "id": "cordero-de-dios",
+  "title": "CORDERO DE DIOS",
+  "section": "Paz",
+  "image": "songs/cordero-de-dios.png"
+},
+{
+  "id": "gloria-a-dios",
+  "title": "GLORIA A DIOS",
+  "section": "Salmo",
+  "image": "songs/gloria-a-dios.png"
+},
+{
+  "id": "gracias-a-dios",
+  "title": "GRACIAS A DIOS",
+  "section": "Salmo",
+  "image": "songs/gracias-a-dios.png"
+},
+{
+  "id": "senor-mio-y-dios-mio-2",
+  "title": "SEÑOR MÍO Y DIOS MÍO",
+  "section": "Salmo",
+  "image": "songs/senor-mio-y-dios-mio.png"
+},
+{
+  "id": "santo-nun",
+  "title": "SANTO NUN",
+  "section": "Santo",
+  "image": "songs/santo-nun.png"
+},
+{
+  "id": "cantemos-al-amor",
+  "title": "CANTEMOS AL AMOR",
+  "section": "Salida",
+  "image": "songs/cantemos-al-amor.png"
+},
+{
+  "id": "tantum-ergo",
+  "title": "TANTUM ERGO",
+  "section": "Salida",
+  "image": "songs/tantum-ergo.png"
+},
+{
+  "id": "alma-de-cristo-extra",
+  "title": "ALMA DE CRISTO",
+  "section": "Post-Comunión",
+  "image": "songs/alma-de-cristo.png"
 }
 ]
