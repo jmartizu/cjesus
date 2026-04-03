@@ -574,9 +574,9 @@
 },
 {
   "id": "gloria-valverde",
-  "title": "GRACIAS A DIOS",
+  "title": "GLORIA VALVERDE",
   "section": "Salmo",
-  "image": "songs/gracias-a-dios.png"
+  "image": "songs/gloria-valverde.png"
 },
 {
   "id": "senor-mio-y-dios-mio-2",
@@ -586,9 +586,9 @@
 },
 {
   "id": "santo-nilton",
-  "title": "SANTO NUN",
+  "title": "SANTO NILTON",
   "section": "Santo",
-  "image": "songs/santo-nun.png"
+  "image": "songs/santo-nilton.png"
 },
 {
   "id": "cantemos-al-amor",
@@ -607,5 +607,19 @@
   "title": "ALMA DE CRISTO",
   "section": "Post-Comunión",
   "image": "songs/alma-de-cristo.png"
+},
+{
+  "id": "alma-de-cristo-extra",
+  "title": "ALMA DE CRISTO",
+  "section": "Post-Comunión",
+  "image": "songs/alma-de-cristo.png"
+},
+{
+  "id": "sigue-habiendo",
+  "title": "SIGUE HABIENDO",
+  "section": "Ofertorio",
+  "image": "songs/sigue-habiendo.png"
 }
 ]
+
+
