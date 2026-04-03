@@ -625,7 +625,38 @@
   "title": "PERDONA A TU PUEBLO SEÑOR",
   "section": "Entrada",
   "image": "songs/perdona-a-tu-pueblo-senor.png"
-} 
+},
+ {
+    "id": "el-senor-es-mi-luz",
+    "title": "EL SEÑOR ES MI LUZ",
+    "section": "Salmo",
+    "image": "songs/el-senor-es-mi-luz.png"
+},
+  {
+    "id": "senor-dios-nuestro",
+    "title": "SEÑOR, DIOS NUESTRO",
+    "section": "Salmo",
+    "image": "songs/senor-dios-nuestro.png"
+},
+  {
+    "id": "hoy-el-senor-resucito",
+    "title": "HOY EL SEÑOR RESUCITÓ",
+    "section": "Salida",
+    "image": "songs/hoy-el-senor-resucito.png"
+},
+  {
+    "id": "regina-coeli",
+    "title": "REGINA COELI",
+    "section": "Salida",
+    "image": "songs/regina-coeli.png"
+ },
+  {
+    "id": "todos-unidos",
+    "title": "TODOS UNIDOS",
+    "section": "Salmo",
+    "image": "songs/todos-unidos.png"
+  }
+] 
 ]
 
 
