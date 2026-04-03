@@ -619,7 +619,13 @@
   "title": "SIGUE HABIENDO",
   "section": "Ofertorio",
   "image": "songs/sigue-habiendo.png"
-}
+},
+{
+  "id": "perdona-a-tu-pueblo-senor",
+  "title": "PERDONA A TU PUEBLO SEÑOR",
+  "section": "Entrada",
+  "image": "songs/perdona-a-tu-pueblo-senor.png"
+} 
 ]
 
 
